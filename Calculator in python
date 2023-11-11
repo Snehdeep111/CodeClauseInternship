@@ -1,0 +1,18 @@
+print('~~~~~~~CALCULATOR~~~~~~~')
+
+num1=float(input('enter first number of expression :- '))
+num2=float(input('enter second number of expression :- '))
+
+print('\n - press 1 for addition \n - press 2 for substraction \n - press3 for division \n - press 4 for multiplication \n')
+
+choice=int(input('enter your choice from 1-4 :- '))
+if choice==1:
+    print('sum is ' ,num1+num2)
+elif choice==2:
+    print('substraction is ' ,num1-num2)
+elif choice==3:
+    print('division is ',num1/num2)
+elif choice==4:
+    print('multiplication is ',num1*num2)
+else:
+    print('[Make a proper choice]')
